@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.mobiquityinc'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.8'
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'pl.pojo:pojo-tester:0.7.6'
+}
+
+jar {
+    manifest {
+        attributes "Main-Class": "com.mobiquityinc.BestPackage"
+    }
+}
