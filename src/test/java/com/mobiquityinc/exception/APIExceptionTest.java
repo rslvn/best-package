@@ -12,7 +12,7 @@ public class APIExceptionTest {
 
         APIException apiException = APIException.to(exception, "Dummy message");
 
-        Assert.assertEquals("Message mismatched", apiException.getCause(), exception);
+        Assert.assertEquals(exception, apiException.getCause());
         throw apiException;
 
     }
@@ -21,7 +21,7 @@ public class APIExceptionTest {
     public void fromMessageWithParametersTest() {
         APIException apiException = APIException.to("Dummy message %d", 5);
 
-        Assert.assertEquals("Message mismatched", apiException.getMessage(), "Dummy message 5");
+        Assert.assertEquals(apiException.getMessage(), "Dummy message 5");
         throw apiException;
     }
 }

@@ -26,4 +26,3 @@ The app uses [Dynamic_programming_in-advance_algorithm](https://en.wikipedia.org
     
 ##### sample
     java -jar build/libs/best-package-1.0.jar src/test/resources/PackageProblem.txt
-
