@@ -5,7 +5,6 @@
 [![Lines Of Code](https://sonarcloud.io/api/project_badges/measure?project=rslvn_best-package&metric=ncloc)](https://sonarcloud.io/dashboard?id=rslvn_best-package)
 [![Technical Debit](https://sonarcloud.io/api/project_badges/measure?project=rslvn_best-package&metric=sqale_index)](https://sonarcloud.io/dashboard?id=rslvn_best-package)
 
-
 The app uses [Dynamic_programming_in-advance_algorithm](https://en.wikipedia.org/wiki/Knapsack_problem#Dynamic_programming_in-advance_algorithm) to solve the packing problem
     
 ## prerequisites
